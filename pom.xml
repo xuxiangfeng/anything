@@ -7,7 +7,6 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.0.BUILD-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>org.whut.xxf</groupId>
@@ -33,6 +32,29 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>org.whut.xxf</groupId>
+				<artifactId>anything-common</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.whut.xxf</groupId>
+				<artifactId>anything-entity</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.whut.xxf</groupId>
+				<artifactId>anything-server</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.whut.xxf</groupId>
+				<artifactId>anything-web</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
